@@ -1,1 +1,2 @@
 # isis3710-pagina-personal
+Basado en instrucciones encontradas en: https://uniandes.sharepoint.com/:w:/r/sites/ISISPTW/_layouts/15/guestaccess.aspx?e=qFaS9t&share=EcSQJQd-1H9FtAvnbcTyA_IB4QNZ9jVA6ugpUff5irT2Rw
