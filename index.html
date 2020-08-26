@@ -11,6 +11,7 @@
 
     <title>Gabriel Cubillos Bolivar</title>
 </head>
+<!--TODO: Adjust for screen sizes: Small >= 576. Medium >= 768. Large >=992-->
 
 <body>
     <!--TODO: Banner-->
@@ -43,70 +44,114 @@
         </ul>
     </nav>
     <!--TODO: Content area-->
-    <h1 id="about">About</h1>
 
     <!--Who am I?-->
-    <p>Hi, I am Gabriel Cubillos Bolivar an engineering student at the Universidad de los Andes.
-        Welcome to my first personal webpage developed using Bootstrap. This is me at the computer pretending to work.
-    </p>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
+                <h1 id="about">About</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-6 col-lg-4">
                 <figure>
                     <img src="./images/computer.jpg" class="img-fluid rounded" alt="Person at a computer">
                 </figure>
             </div>
+            <div class="col-12 col-md-6 col-lg-8">
+                Hi, I am Gabriel Cubillos Bolivar an engineering student at the Universidad de los Andes.
+                Welcome to my first personal webpage developed using Bootstrap. This is me at the computer pretending to
+                work. <br>
+                My contact information is: <br>
+                E-mail: g.cubillosb@uniandes.edu.co <br>
+                GitHub: gcubillos
+            </div>
+
         </div>
     </div>
-    My contact information is:
-    E-mail: g.cubillosb@uniandes.edu.co
-    GitHub: gcubillos
 
     <!--Interests-->
-    <h2 id="interest">Interests</h2>
-    <p>At the current moment my interests are the following:</p>
-    <ul>
-        <li>
-            <strong>Learning:</strong> I find it fascinating to learn about learning. Recently, I took the course
-            Learning How to Learn which can be found here:
-        </li>
-        <li>
-            <strong>Memory:</strong> Interested in learning ways in order to remember more things
-            and avoid the chance of forgetting them. For example, the use of mind palaces. Here is an example of Nelson
-            Dellis utilizing this technique:
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E1x9IaMTpyw"
-                    allowfullscreen></iframe>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h2 id="interest">Interests</h2>
             </div>
-        </li>
-        <li>
-            <strong>Music:</strong> Currently learning to play pieces in piano. Trying to understand the structure of
-            music.
-        </li>
-    </ul>
+        </div>
+        <div class="row">
+            <div class="col">
+                At the current moment my interests are the following:
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-4">
+                <strong>Learning:</strong> I find it fascinating to learn about learning. Recently, I took the
+                course
+                Learning How to Learn which can be found here:
+            </div>
+            <div class="col col-lg-4">
+                <strong>Music:</strong> Currently learning to play pieces in piano. Trying to understand the
+                structure of
+                music.
+            </div>
+            <div class="col col-lg-4">
+                <strong>Memory:</strong> Interested in learning ways in order to remember more things
+                and avoid the chance of forgetting them. For example, the use of mind palaces. Here is an example of
+                Nelson
+                Dellis utilizing this technique:
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E1x9IaMTpyw"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
     <!--Skills-->
-    <h2 id="skill">Skills</h2>
-    <p>Acquired abilities:</p>
-    <ul>
-        <li>
-            Java programming language: Basic understanding and implementation of data structures in the language.
-            Currently, not very proficient in it. Studied mostly between 2017-2018.
-        </li>
-        <li>
-            Excel: Understanding of the use of macros and how to solve optimization problems.
-        </li>
-        <li>
-            Learning (in progress): The ability to learn things in a quicker manner and to be able to understand them
-            and apply them in different contexts.
-        </li>
-        <li>
-            Web development (in progress): Construction of basic webpages, like this one. Hoping to learn how to build a
-            responsive and interactive website.
-        </li>
-    </ul>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h2 id="skill">Skills</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Acquired abilities:
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+
+                Java programming language: Basic understanding and implementation of data structures in the language.
+                Currently, not very proficient in it. Studied mostly between 2017-2018.
+
+            </div>
+            <div class="col">
+                Excel: Understanding of the use of macros and how to solve optimization problems.
+            </div>
+            <div class="col">
+                Learning (in progress): The ability to learn things in a quicker manner and to be able to understand
+                them
+                and apply them in different contexts.
+            </div>
+            <div class="col">
+
+                Web development (in progress): Construction of basic webpages, like this one. Hoping to learn how to
+                build a
+                responsive and interactive website.
+
+            </div>
+        </div>
+    </div>
 
     <!--Hobbies-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
     <h2 id="hobby">Hobbies</h2>
     <ul>
         <li>
@@ -123,7 +168,7 @@
 
     <h1 id="projects">Projects</h1>
     <!--Projects-->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 Schedule optimizer: A program in Excel that allows you to input the classes for the semester and create
@@ -150,7 +195,7 @@
     <!--Academic background-->
     <h2 id="academic">Academic Background</h2>
     <h3>Education</h3>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 School: Colegio Hacienda los Alcaparros (2003-2017)
@@ -161,7 +206,7 @@
         </div>
     </div>
     <h3>Work experience</h3>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 TA for APO
