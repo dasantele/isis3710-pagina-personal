@@ -16,7 +16,8 @@
 <body>
     <!--TODO: Banner-->
     <!--TODO: Navigation menu-->
-    <nav class="navbar navbar-expand navbar-light bg-light">
+
+    <nav class="navbar navbar-expand sticky-top navbar-light bg-light">
         <!--Name-->
         <a class="nav-brand" href="#">Gabriel Cubillos Bolivar</a>
         <!--Links-->
@@ -28,21 +29,23 @@
                     About
                 </a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" id="#interest">Interests</a>
-                    <a class="dropdown-item" id="#skill">Skills</a>
-                    <a class="dropdown-item" id="#hobby">Hobbies</a>
-                    <a class="dropdown-item" id="#academic">Academic Background</a>
+                    <a class="dropdown-item" href="#interest">Interests</a>
+                    <a class="dropdown-item" href="#skill">Skills</a>
+                    <a class="dropdown-item" href="#hobby">Hobbies</a>
+                    <a class="dropdown-item" href="#academic">Academic Background</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#project">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
 
         </ul>
     </nav>
+
+
     <!--TODO: Content area-->
 
     <!--Who am I?-->
@@ -58,13 +61,10 @@
                     <img src="./images/computer.jpg" class="img-fluid rounded" alt="Person at a computer">
                 </figure>
             </div>
-            <div class="col-12 col-md-6 col-lg-8">
+            <div class="col-12 col-md-6 col-lg-4">
                 Hi, I am Gabriel Cubillos Bolivar an engineering student at the Universidad de los Andes.
                 Welcome to my first personal webpage developed using Bootstrap. This is me at the computer pretending to
-                work. <br>
-                My contact information is: <br>
-                E-mail: g.cubillosb@uniandes.edu.co <br>
-                GitHub: gcubillos
+                work.
             </div>
 
         </div>
@@ -83,28 +83,31 @@
             </div>
         </div>
         <div class="row">
-            <div class="col col-lg-4">
+            <div class="col-12 col-md-6 col-lg-6 order-md-1">
                 <strong>Learning:</strong> I find it fascinating to learn about learning. Recently, I took the
                 course
                 Learning How to Learn which can be found here:
             </div>
-            <div class="col col-lg-4">
+            <div class="col-12 col-md-6 col-lg-6 order-md-3">
                 <strong>Music:</strong> Currently learning to play pieces in piano. Trying to understand the
                 structure of
                 music.
             </div>
-            <div class="col col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 order-md-2">
                 <strong>Memory:</strong> Interested in learning ways in order to remember more things
                 and avoid the chance of forgetting them. For example, the use of mind palaces. Here is an example of
                 Nelson
                 Dellis utilizing this technique:
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 order-md-4">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E1x9IaMTpyw"
                         allowfullscreen></iframe>
                 </div>
             </div>
+
+
         </div>
-    </div>
     </div>
 
     <!--Skills-->
@@ -119,24 +122,27 @@
                 Acquired abilities:
             </div>
         </div>
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-around">
+            <div class="col-12 col-md-6 col-lg-3">
 
-                Java programming language: Basic understanding and implementation of data structures in the language.
+                <strong>Java programming language:</strong> Basic understanding and implementation of data structures in
+                the language.
                 Currently, not very proficient in it. Studied mostly between 2017-2018.
 
             </div>
-            <div class="col">
-                Excel: Understanding of the use of macros and how to solve optimization problems.
+            <div class="col-12 col-md-6 col-lg-3">
+                <strong>Excel:</strong> Understanding of the use of macros and how to solve optimization problems.
             </div>
-            <div class="col">
-                Learning (in progress): The ability to learn things in a quicker manner and to be able to understand
+            <div class="col-12 col-md-6 col-lg-3">
+                <strong>Learning (in progress):</strong>
+                The ability to learn things in a quicker manner and to be able to understand
                 them
                 and apply them in different contexts.
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-3">
 
-                Web development (in progress): Construction of basic webpages, like this one. Hoping to learn how to
+                <strong>Web development (in progress): </strong> Construction of basic webpages, like this one. Hoping
+                to learn how to
                 build a
                 responsive and interactive website.
 
@@ -148,43 +154,51 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-
+                <h2 id="hobby">Hobbies</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-2">
+                <strong>Reading:</strong> I enjoy reading in my spare time. Would like to believe that I'm open to all
+                sorts of genres.
+            </div>
+            <div class="col-12 col-md-6 order-md-1">
+                <strong>Playing piano: </strong> Learning new pieces on the piano. Here is an excerpt of one of my
+                favorite piano pieces:
+            </div>
+            <div class="col-12 col-md-3 order-md-3">
+                <audio controls>
+                    <source src="./images/piano-no-3.mp3" type="audio/mpeg">
+                </audio>
             </div>
         </div>
     </div>
-    <h2 id="hobby">Hobbies</h2>
-    <ul>
-        <li>
-            Reading: I enjoy reading in my spare time. Would like to believe that I'm open to all sorts of genres.
-        </li>
-        <li>
-            Playing piano: Learning new pieces on the piano. Here is an excerpt of one of my favorite piano pieces:
-            <br>
-            <audio controls>
-                <source src="./images/piano-no-3.mp3" type="audio/mpeg">
-            </audio>
-        </li>
-    </ul>
 
-    <h1 id="projects">Projects</h1>
+
     <!--Projects-->
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                Schedule optimizer: A program in Excel that allows you to input the classes for the semester and create
+                <h1 id="project">Projects</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-5">
+                <strong>Schedule optimizer: </strong> A program in Excel that allows you to input the classes for the
+                semester and create
                 a possible schedule for it (designed for the specific Uniandes format). One downside is the fact that
-                you have to input the data manually. An example of the program can be found here:
+                you have to input the data manually. An example of the program can be found by clicking on the Excel
+                logo (you need OpenSolver
+                for it to work):
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                BOU (Not currently part of the project): Application for mobile devices that allows you to shop for
-                clothes without the need of paying in a counter with the use of RFID technology. More information here:
+            <div class="col-3 col-md-2 col-lg-1 align-self-center">
+                <a href="https://we.tl/t-KVOsUIkN0W" target="_blank">
+                    <img src="./images/excel-logo.png" class="img-fluid rounded" alt="microsoft-excel-logo"></a>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                Learning about learning: Trying to learn about the way we learn in order to learn more effectively.
+
+            <div class="col-12 col-md-6 col-lg-6">
+                <strong>Learning about learning: </strong> Trying to learn about the way we learn in order to learn more
+                effectively.
                 Resources:
             </div>
         </div>
@@ -193,61 +207,73 @@
 
 
     <!--Academic background-->
-    <h2 id="academic">Academic Background</h2>
-    <h3>Education</h3>
     <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h2 id="academic">Academic Background</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3>Education</h3>
+            </div>
+        </div>
         <div class="row">
             <div class="col">
                 School: Colegio Hacienda los Alcaparros (2003-2017)
             </div>
+            
+        </div>
+        <div class="row">
             <div class="col">
                 University: Universidad de los Andes (2017-today (August 26))
             </div>
         </div>
-    </div>
-    <h3>Work experience</h3>
-    <div class="container-fluid">
         <div class="row">
             <div class="col">
-                TA for APO
+                <h3>Work experience</h3>
             </div>
         </div>
+
         <div class="row">
             <div class="col">
-                TA for Introduction
+                TA for Introduction to computer engineering (2018)
             </div>
         </div>
     </div>
 
     <!--TODO: Footer-->
     <footer>
-        Gabriel Cubillos Bolivar
-        <nav class="navbar navbar-expand bg-light">
-            <!--Name-->
-            <a class="nav-brand" href="#">Gabriel Cubillos Bolivar</a>
-            <!--Links-->
-            <ul class="navbar-nav">
-                </li>
-                <li class="nav-item dropdown">
-                    <!--TODO: Fix the dropdown-->
-                    <a class="nav-link dropdown-toggle" href="#about" id="navbardrop" data-toggle="dropdown">
-                        About</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item">Interests</a>
-                        <a class="dropdown-item">Skills</a>
-                        <a class="dropdown-item">Hobbies</a>
-                        <a class="dropdown-item">Academic Background</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Contact</a>
-                </li>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2 id="contact" class="text-center">Gabriel Cubillos Bolivar</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">Click on the logos either to write me an e-mail or to go to my github page
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3 col-md-2 col-lg-1">
+                    <a href="mailto:g.cubillosb@uniandes.edu.co" target="_blank">
+                        <figure>
+                            <img src="./images/outlook-logo.png" class="img-fluid rounded" alt="outlook-logo">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-3 col-md-2 col-lg-1">
+                    <figure>
+                        <a href="https://github.com/gcubillos" target="_blank">
+                            <img src="./images/github-logo.png" class="img-fluid rounded" alt="github-logo-octocat">
+                    </figure>
+                    </a>
+                </div>
+            </div>
 
-            </ul>
-        </nav>
+        </div>
 
     </footer>
     <!--TODO: Text, images, videos, audio-->
