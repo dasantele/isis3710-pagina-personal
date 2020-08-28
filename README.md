@@ -1,2 +1,2 @@
 # isis3710-pagina-personal
-Basado en instrucciones encontradas en: https://uniandes.sharepoint.com/:w:/r/sites/ISISPTW/_layouts/15/guestaccess.aspx?e=qFaS9t&share=EcSQJQd-1H9FtAvnbcTyA_IB4QNZ9jVA6ugpUff5irT2Rw
+La página personal se encuentra desplegada en el siguiente enlace: https://gcubillos.github.io/isis3710-pagina-personal/ si ese enlace no funciona probar con: https://gcubillos.github.io/isis3710-pagina-personal/index.html Esta página fue desarrollada teniendo en cuenta las instrucciones encontradas en el siguiente enlace: https://uniandes.sharepoint.com/:w:/r/sites/ISISPTW/_layouts/15/guestaccess.aspx?e=qFaS9t&share=EcSQJQd-1H9FtAvnbcTyA_IB4QNZ9jVA6ugpUff5irT2Rw

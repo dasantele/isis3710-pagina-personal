@@ -17,32 +17,38 @@
     <!--TODO: Banner-->
     <!--TODO: Navigation menu-->
 
-    <nav class="navbar navbar-expand sticky-top navbar-light bg-light">
+    <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light">
         <!--Name-->
         <a class="nav-brand" href="#">Gabriel Cubillos Bolivar</a>
         <!--Links-->
-        <ul class="navbar-nav">
-            </li>
-            <li class="nav-item dropdown">
-                <!--TODO: Fix the dropdown-->
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                    About
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#interest">Interests</a>
-                    <a class="dropdown-item" href="#skill">Skills</a>
-                    <a class="dropdown-item" href="#hobby">Hobbies</a>
-                    <a class="dropdown-item" href="#academic">Academic Background</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#project">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                </li>
+                <li class="nav-item dropdown">
+                    <!--TODO: Fix the dropdown-->
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        About
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#interest">Interests</a>
+                        <a class="dropdown-item" href="#skill">Skills</a>
+                        <a class="dropdown-item" href="#hobby">Hobbies</a>
+                        <a class="dropdown-item" href="#academic">Academic Background</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
     </nav>
 
 
@@ -63,7 +69,8 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 Hi, I am Gabriel Cubillos Bolivar an engineering student at the Universidad de los Andes.
-                Welcome to my first personal webpage developed using Bootstrap. This is me at the computer pretending to
+                Welcome to my first personal webpage developed using Bootstrap. This is me at the computer
+                pretending to
                 work.
             </div>
 
@@ -125,7 +132,8 @@
         <div class="row justify-content-around">
             <div class="col-12 col-md-6 col-lg-3">
 
-                <strong>Java programming language:</strong> Basic understanding and implementation of data structures in
+                <strong>Java programming language:</strong> Basic understanding and implementation of data
+                structures in
                 the language.
                 Currently, not very proficient in it. Studied mostly between 2017-2018.
 
@@ -141,7 +149,8 @@
             </div>
             <div class="col-12 col-md-6 col-lg-3">
 
-                <strong>Web development (in progress): </strong> Construction of basic webpages, like this one. Hoping
+                <strong>Web development (in progress): </strong> Construction of basic webpages, like this one.
+                Hoping
                 to learn how to
                 build a
                 responsive and interactive website.
@@ -159,7 +168,8 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-6 order-md-2">
-                <strong>Reading:</strong> I enjoy reading in my spare time. Would like to believe that I'm open to all
+                <strong>Reading:</strong> I enjoy reading in my spare time. Would like to believe that I'm open to
+                all
                 sorts of genres.
             </div>
             <div class="col-12 col-md-6 order-md-1">
@@ -173,39 +183,6 @@
             </div>
         </div>
     </div>
-
-
-    <!--Projects-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <h1 id="project">Projects</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-5">
-                <strong>Schedule optimizer: </strong> A program in Excel that allows you to input the classes for the
-                semester and create
-                a possible schedule for it (designed for the specific Uniandes format). One downside is the fact that
-                you have to input the data manually. An example of the program can be found by clicking on the Excel
-                logo (you need OpenSolver
-                for it to work):
-            </div>
-            <div class="col-3 col-md-2 col-lg-1 align-self-center">
-                <a href="https://we.tl/t-KVOsUIkN0W" target="_blank">
-                    <img src="./images/excel-logo.png" class="img-fluid rounded" alt="microsoft-excel-logo"></a>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-6">
-                <strong>Learning about learning: </strong> Trying to learn about the way we learn in order to learn more
-                effectively.
-                Resources:
-            </div>
-        </div>
-    </div>
-
-
-
     <!--Academic background-->
     <div class="container-fluid">
         <div class="row">
@@ -222,7 +199,7 @@
             <div class="col">
                 School: Colegio Hacienda los Alcaparros (2003-2017)
             </div>
-            
+
         </div>
         <div class="row">
             <div class="col">
@@ -242,6 +219,43 @@
         </div>
     </div>
 
+
+    <!--Projects-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 id="project">Projects</h1>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-12 col-md-5 col-lg-5">
+                <strong>Schedule optimizer: </strong> A program in Excel that allows you to input the classes for
+                the
+                semester and create
+                a possible schedule for it (designed for the specific Uniandes format). One downside is the fact
+                that
+                you have to input the data manually. An example of the program can be found by clicking on the Excel
+                logo (you need OpenSolver
+                for it to work):
+            </div>
+            <div class="col-3 col-md-2 col-lg-1 align-self-center">
+                <a href="https://we.tl/t-KVOsUIkN0W" target="_blank">
+                    <figure>
+                        <img src="./images/excel-logo.png" class="img-fluid rounded" alt="microsoft-excel-logo">
+                    </figure>
+                </a>
+
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-6">
+                <strong>Learning about learning: </strong> Trying to learn about the way we learn in order to learn
+                more
+                effectively.
+                Resources:
+            </div>
+        </div>
+    </div>
+
     <!--TODO: Footer-->
     <footer>
         <div class="container-fluid">
@@ -252,7 +266,8 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p class="text-center">Click on the logos either to write me an e-mail or to go to my github page
+                    <p class="text-center">Click on the logos either to write me an e-mail or to go to my github
+                        page
                     </p>
                 </div>
             </div>
